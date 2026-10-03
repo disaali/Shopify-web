@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #121212;
+  --color-sale: #E65A4D;
+  --color-sale-light: #F4C0BB;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
